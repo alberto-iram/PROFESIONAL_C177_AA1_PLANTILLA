@@ -4,15 +4,15 @@ import random
 app = Flask(__name__)
 
 answer_dict={
-                "1": ["Black", "Gorilla", "Dancing", "Madagascar", "Nice", "White", "Tigers", "Move"],
-                "2": ["Sunday", "Aunt", "Dog", "Burgers", "Soft Drinks", "Nice", "Cards"],
-                "3": ["Smelly", "Cat", "California", "Cat", "Blue", "3", "Fishes", "Dance", "Songs", "Sad", "Childishly", "Happy"]
+                "1": ["Gran", "Gorilla", "Negro", "Madagascar", "Agradable", "Tigres", "Blancos", "Moverme"],
+                "2": ["Domingo", "Tía", "Perro", "Hamburguesas", "Refrescos", "Agradable", "Cartas"],
+                "3": ["Gato", "Apestoso", "California", "Gato", "Azul", "3", "Peces", "Bailar", "Canciones", "Triste", "Infantil", "Feliz"]
             }
 
 
 
 
-#ADD stories data here!
+#¡Añade aquí los datos de las historias!
 
 
 
@@ -23,7 +23,7 @@ def index():
     return render_template("index.html")
     
 
-#ADD "/get-story" API here!!
+#Añade aquí la API "/get-story".
 
 
     
